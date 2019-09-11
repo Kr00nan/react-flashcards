@@ -17,7 +17,6 @@ class FlashcardForm extends React.Component {
   render() {
     return (
       <Form onSubmit={this.handleSubmit}>
-        <Form.Group widths='equal'>
           <Form.Input 
             fluid 
             label='Question'
@@ -35,7 +34,6 @@ class FlashcardForm extends React.Component {
             onChange={this.handleChange}
           />
           <Form.Button basic color='linkedin'>Submit</Form.Button>
-        </Form.Group>
       </Form>
     )  
   }

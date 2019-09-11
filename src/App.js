@@ -34,10 +34,10 @@ class App extends React.Component {
         </Header>
         <Grid celled>
           <Grid.Row>
-            <Grid.Column width={7}>
+            <Grid.Column width={4}>
               <FlashcardForm add={this.addFlashcard} />
             </Grid.Column>
-            <Grid.Column width={9}>
+            <Grid.Column width={12}>
               <Flashcard flashcards={this.state.flashcards} remove={this.deleteFlashcard} />
             </Grid.Column>
           </Grid.Row>
