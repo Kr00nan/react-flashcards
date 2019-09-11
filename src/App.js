@@ -25,8 +25,6 @@ class App extends React.Component {
     this.setState({ flashcards: [...flashcards], });
   };
 
-  toggleAnswer = (id) => this.setState({ showForm: !this.state.showForm, });
-
   render() {
     return (
       <Container style={{marginTop: '25px'}}>
